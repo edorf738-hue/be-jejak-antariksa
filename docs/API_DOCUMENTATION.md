@@ -20,9 +20,20 @@
 | GET | `/api/v1/missions` | Daftar misi |
 | GET | `/api/v1/missions/:slug` | Detail misi |
 | GET | `/api/v1/sources` | Daftar sumber |
-| GET | `/api/v1/media` | Daftar media bila diperlukan |
+| GET | `/api/v1/locations` | Daftar lokasi + koordinat (`:slug` untuk detail) |
+| GET | `/api/v1/artifacts` | Daftar artefak yang ditinggalkan (`:slug` untuk detail) |
+| GET | `/api/v1/media` | Daftar media (`:id` untuk detail) |
+| GET | `/assets/...` | File aset statis (URL ada di field `url` media) |
 
-Query opsional: `category`, `destination`, `status`, `limit`, `offset`. Implementasikan hanya yang dibutuhkan UI.
+Query: `limit` (default 50), `offset`, plus filter per resource:
+- `objects`: `category`
+- `missions`: `destination`, `status`
+- `locations`: `body`, `mission`
+- `artifacts`: `status` (`left_behind|operating|unknown|...`), `mission`, `location`
+- `media`: `asset_type` (`image|video|model_3d`), `mission`
+- `stories`: `mission`
+
+Status 3D/media: `attribution` masih `null` (TBD, cek kredit per file di halaman NASA).
 
 ## Contoh response objek
 ```json
