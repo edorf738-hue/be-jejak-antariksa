@@ -11,16 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edorf738-hue/be-wayang-antariksa.git"
+    "url": "git+https://github.com/edorf738-hue/be-jejak-antariksa.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/edorf738-hue/be-wayang-antariksa/issues"
+    "url": "https://github.com/edorf738-hue/be-jejak-antariksa/issues"
   },
-  "homepage": "https://github.com/edorf738-hue/be-wayang-antariksa#readme",
+  "homepage": "https://github.com/edorf738-hue/be-jejak-antariksa#readme",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^18.0.10",

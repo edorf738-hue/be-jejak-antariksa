@@ -1,6 +1,6 @@
 # Prompt Integrasi FE → BE (JEJAK ANTARIKSA)
 
-Salin semua di bawah garis ini ke AI/dev FE. Repo FE: `fe-wayang-antariksa` (Next.js). Baca juga `AGENTS.md` di repo FE.
+Salin semua di bawah garis ini ke AI/dev FE. Repo FE: `fe-jejak-antariksa` (Next.js). Baca juga `AGENTS.md` di repo FE.
 
 ---
 
@@ -10,7 +10,7 @@ Kamu mengerjakan frontend website eksplorasi luar angkasa "JEJAK ANTARIKSA" (hac
 Halaman: Home, Story, Journey Map, Source. Resources diakses dari Home/halaman terkait (bukan navbar).
 
 ## Backend
-- Base URL dev: `http://localhost:5000` (jalankan `npm run dev` di `be-wayang-antariksa`). Simpan di env FE, mis. `NEXT_PUBLIC_API_URL`; jangan hardcode.
+- Base URL dev: `http://localhost:5000` (jalankan `npm run dev` di `be-jejak-antariksa`). Simpan di env FE, mis. `NEXT_PUBLIC_API_URL`; jangan hardcode.
 - CORS: BE membaca `CORS_ORIGIN` (contoh `http://localhost:3000`).
 - Tanpa autentikasi. Semua endpoint `GET`.
 - Data: JSON statis, dibaca saat server start. Edit data → restart BE.
