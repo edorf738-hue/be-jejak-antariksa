@@ -43,7 +43,7 @@ export function createApp() {
   app.use(express.json());
 
   app.get("/", (_req, res) => {
-    res.json({ message: "WAYANG ANTARIKSA API is running!" });
+    res.json({ message: "JEJAK ANTARIKSA API is running!" });
   });
 
   // Assets live outside the repo (large files); override with ASSETS_DIR

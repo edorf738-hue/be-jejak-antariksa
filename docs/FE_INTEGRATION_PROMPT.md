@@ -1,11 +1,11 @@
-# Prompt Integrasi FE → BE (WAYANG ANTARIKSA)
+# Prompt Integrasi FE → BE (JEJAK ANTARIKSA)
 
 Salin semua di bawah garis ini ke AI/dev FE. Repo FE: `fe-wayang-antariksa` (Next.js). Baca juga `AGENTS.md` di repo FE.
 
 ---
 
 ## Peran dan tujuan
-Kamu mengerjakan frontend website eksplorasi luar angkasa "WAYANG ANTARIKSA" (hackathon NASA 2026, bahasa konten Indonesia, target pembaca SD–SMP). Hubungkan UI ke backend Express yang sudah jalan. Tema: **"Left behind, never forgotten"**: benda yang ditinggalkan manusia di Bulan, Mars, dan ruang antarbintang.
+Kamu mengerjakan frontend website eksplorasi luar angkasa "JEJAK ANTARIKSA" (hackathon NASA 2026, bahasa konten Indonesia, target pembaca SD–SMP). Hubungkan UI ke backend Express yang sudah jalan. Tema: **"Left behind, never forgotten"**: benda yang ditinggalkan manusia di Bulan, Mars, dan ruang antarbintang.
 
 Halaman: Home, Story, Journey Map, Source. Resources diakses dari Home/halaman terkait (bukan navbar).
 
