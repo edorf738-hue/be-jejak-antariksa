@@ -32,5 +32,6 @@ Semua 23 halaman NASA yang diberikan tim dibuka dan menjawab 200. Kolom "Berkas 
 - **Full Jupiter Mosaic (PIA09243)** berasal dari misi **New Horizons** (kredit NASA/Johns Hopkins APL/Southwest Research Institute), bukan Voyager: jangan dikategorikan sebagai foto Voyager.
 - **Hak cipta Golden Record:** NASA menyatakan semua gambar di dalam Golden Record (48 gambar) berhak cipta; reproduksi tanpa izin pemegang hak cipta dilarang. Kita hanya memakai foto piringan dan sampul.
 - Beberapa halaman (galeri, ringkasan misi, Photojournal tanpa blok kredit terbaca) tidak punya satu kredit: kolom diisi "tidak tercantum", bukan ditebak.
-- Belum ditemukan halaman asalnya: Voyager_Jupiter_Great_Red_Spot.jpg, Voyager_Saturn_Atmospheric_Changes.jpg, dan dua diagram sampul Golden Record.
+- Ditemukan lewat pencarian lanjutan (gambar identik, di luar 23 halaman di atas): Voyager_Saturn_Atmospheric_Changes.jpg = PIA03152 "Saturn's Atmospheric Changes", NASA/JPL-Caltech, foto Voyager 2 (12 Juli 1981), https://science.nasa.gov/image-detail/pia03152/; Voyager_Golden_Record_Cover_Diagram.jpeg = gambar di https://science.nasa.gov/mission/voyager/golden-record-cover/ (halaman tidak menyebut kredit).
+- Belum ditemukan halaman asalnya: Voyager_Jupiter_Great_Red_Spot.jpg dan Voyager_Golden_Record_Cover_Diagram_Explained.jpg.
 - Voyager Probe (A) memuat "Mission: Viking 1" di halaman NASA (lihat katalog).
