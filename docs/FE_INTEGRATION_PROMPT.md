@@ -29,7 +29,7 @@ Query `limit` (default 50, minimal 1) dan `offset` (default 0) harus bilangan bu
 | `/api/v1/locations` | `/locations/:slug` | `body` = `moon` \| `mars` \| `deep_space`, `mission` | 4 |
 | `/api/v1/artifacts` | `/artifacts/:slug` | `status`, `mission`, `location` | 13 |
 | `/api/v1/chapters` | `/chapters/:slug` | `category` | 4 (menggantikan `stories`) |
-| `/api/v1/sources` | `/sources/:id` | - | 14 |
+| `/api/v1/source-catalog` | `/source-catalog/:id` | `kind` | 40 (menggantikan `sources`) |
 | `/api/v1/media` | `/media/:id` | `asset_type` = `image` \| `video` \| `model_3d`, `mission` | 31 |
 
 Filter pada field array (mis. `mission` di media) berarti "array memuat nilai ini". Perhatikan: `destination` misi memakai tanda hubung (`deep-space`), sedangkan `category`/`body` memakai garis bawah (`deep_space`). Jangan disamakan.

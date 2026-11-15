@@ -19,10 +19,10 @@
 | GET | `/api/v1/chapters/:slug` | Detail bab |
 | GET | `/api/v1/missions` | Daftar misi |
 | GET | `/api/v1/missions/:slug` | Detail misi |
-| GET | `/api/v1/sources` | Daftar sumber |
+| GET | `/api/v1/source-catalog` | Daftar sumber, kredit, dan lisensi (menggantikan `sources`) |
 | GET | `/api/v1/locations` | Daftar lokasi + koordinat (`:slug` untuk detail) |
 | GET | `/api/v1/artifacts` | Daftar artefak yang ditinggalkan (`:slug` untuk detail) |
-| GET | `/api/v1/media` | Daftar media (`:id` untuk detail) |
+| GET | `/api/v1/media` | Berkas mentah paket aset NASA (`:id` untuk detail). Dirujuk `artifacts.model_media_id`; belum dipakai FE |
 | GET | `/assets/...` | File aset statis (URL ada di field `url` media) |
 
 Query: `limit` (default 50), `offset`, plus filter per resource:
@@ -99,3 +99,5 @@ Data berikut dulu hidup di file FE; sekarang diedit di `data/*.json` BE dan diam
 
 Path aset (`/images/...`, `/models/...`, `/videos/...`) relatif terhadap situs FE (`public/`), bukan `/assets` BE.
 Seluruh konten FE (termasuk `docs/content-data.json`) sekarang berasal dari BE; FE tidak lagi mengimpor `content-data.json`.
+
+Utang teknis: `media` (berkas mentah) dan `source-catalog` (kredit dan lisensi) masih terpisah; bila dipakai FE nanti, gabungkan agar tiap aset punya satu catatan.

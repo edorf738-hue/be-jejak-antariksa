@@ -15,7 +15,6 @@ const resources: Record<string, Record<string, string>> = {
   missions: { destination: "destination", status: "status" },
   locations: { body: "body", mission: "mission_slugs" },
   artifacts: { status: "status", mission: "mission_slug", location: "location_slug" },
-  sources: {},
   media: { asset_type: "asset_type", mission: "mission_slugs" },
   // content the FE renders (moved here from the FE data files): BE is the source of truth
   chapters: { category: "category" },
