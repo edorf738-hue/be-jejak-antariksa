@@ -15,8 +15,8 @@
 |---|---|---|
 | GET | `/api/v1/objects` | Daftar objek eksplorasi |
 | GET | `/api/v1/objects/:slug` | Detail objek |
-| GET | `/api/v1/stories` | Daftar chapter |
-| GET | `/api/v1/stories/:slug` | Detail chapter |
+| GET | `/api/v1/chapters` | Daftar bab cerita (menggantikan `stories`) |
+| GET | `/api/v1/chapters/:slug` | Detail bab |
 | GET | `/api/v1/missions` | Daftar misi |
 | GET | `/api/v1/missions/:slug` | Detail misi |
 | GET | `/api/v1/sources` | Daftar sumber |
@@ -31,7 +31,7 @@ Query: `limit` (default 50), `offset`, plus filter per resource:
 - `locations`: `body`, `mission`
 - `artifacts`: `status` (`left_behind|operating|unknown|...`), `mission`, `location`
 - `media`: `asset_type` (`image|video|model_3d`), `mission`
-- `stories`: `mission`
+- `chapters`: `category`
 
 Status 3D/media: `attribution` masih `null` (TBD, cek kredit per file di halaman NASA).
 

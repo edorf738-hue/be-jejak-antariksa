@@ -39,6 +39,17 @@ test("api smoke + data integrity", async () => {
       assert.ok(a.model_media_id === null || mediaIds.has(a.model_media_id), a.slug);
     }
 
+    // pagination and validation
+    const p1 = (await get("/scene-objects?limit=5&offset=0")).body;
+    const p2 = (await get("/scene-objects?limit=5&offset=5")).body;
+    assert.equal(p1.data.length, 5);
+    assert.equal(p1.meta.count, 21);
+    assert.notEqual(p1.data[0].id, p2.data[0].id);
+    assert.equal((await get("/chapters?limit=0")).status, 400);
+    assert.equal((await get("/chapters?offset=-1")).status, 400);
+    assert.equal((await get("/stories")).status, 404);
+    assert.equal((await list("/chapters?category=nope")).length, 0);
+
     // FE content now lives here
     const chapters = await list("/chapters");
     assert.deepEqual(chapters.map((c) => c.slug), ["awal-eksplorasi", "eksplorasi-bulan", "eksplorasi-mars", "deep-space"]);

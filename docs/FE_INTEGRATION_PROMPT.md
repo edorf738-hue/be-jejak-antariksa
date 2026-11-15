@@ -28,7 +28,7 @@ Query `limit` (default 50, minimal 1) dan `offset` (default 0) harus bilangan bu
 | `/api/v1/missions` | `/missions/:slug` | `destination` = `moon` \| `mars` \| `deep-space`, `status` | 5 |
 | `/api/v1/locations` | `/locations/:slug` | `body` = `moon` \| `mars` \| `deep_space`, `mission` | 4 |
 | `/api/v1/artifacts` | `/artifacts/:slug` | `status`, `mission`, `location` | 13 |
-| `/api/v1/stories` | `/stories/:slug` | `mission` | 1 |
+| `/api/v1/chapters` | `/chapters/:slug` | `category` | 4 (menggantikan `stories`) |
 | `/api/v1/sources` | `/sources/:id` | - | 14 |
 | `/api/v1/media` | `/media/:id` | `asset_type` = `image` \| `video` \| `model_3d`, `mission` | 31 |
 
@@ -72,7 +72,7 @@ Filter pada field array (mis. `mission` di media) berarti "array memuat nilai in
 
 ## Pola tampilan per halaman
 - **Home**: hero lingkungan 3D (Mars/Bulan/Deep Space) + CTA ke Story dan Journey Map. Pilih tampilan dari `/objects`.
-- **Story**: daftar chapter dari `/stories` (saat ini 1 chapter), detail dari `/stories/:slug`, tampilkan misi terkait lewat `mission_slugs` → `/missions/:slug`.
+- **Story**: daftar bab dari `/chapters` (4 bab), detail dari `/chapters/:slug`.
 - **Journey Map**: destinasi dari `/locations` dikelompokkan per `body`; tiap lokasi menampilkan misi (`mission_slugs`) dan artefaknya (`/artifacts?location=<slug>`). Bedakan lokasi fisik (Bulan/Mars/antariksa) dari penempatan virtual.
 - **Source**: gabungkan `/sources` dan atribusi media. Tampilkan `publisher` dan tautan.
 - **Artefak**: kartu dengan status, deskripsi, `status_note`, model 3D bila ada, dan sumber.

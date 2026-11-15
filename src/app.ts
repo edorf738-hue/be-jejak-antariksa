@@ -12,7 +12,6 @@ const load = (name: string): Item[] =>
 // query param -> field name it filters on
 const resources: Record<string, Record<string, string>> = {
   objects: { category: "category" },
-  stories: { mission: "mission_slugs" },
   missions: { destination: "destination", status: "status" },
   locations: { body: "body", mission: "mission_slugs" },
   artifacts: { status: "status", mission: "mission_slug", location: "location_slug" },
