@@ -94,7 +94,8 @@ Data berikut dulu hidup di file FE; sekarang diedit di `data/*.json` BE dan diam
 | `/api/v1/chapters` (`/:slug`) | 4 bab cerita: narasi, bagian, galeri, video, fakta, artefak, sumber | `category` = `moon` \| `mars` \| `deep-space` |
 | `/api/v1/scene-objects` (`/:slug`, mis. `obj-2-0`) | 21 benda/hotspot 3D beserta media popup | `category`, `chapter` (1-4) |
 | `/api/v1/source-catalog` (`/:id`) | katalog halaman Sumber (referensi, kredit media, model 3D) | `kind` = `referensi` \| `media` \| `model3d` |
+| `/api/v1/journeys` (`/:slug`: `moon`, `mars`, `deep-space`) | Peta Perjalanan per tujuan: kategori, misi, detail, pratinjau, kronologi, sumber | - |
 | `/api/v1/galleries` (`/:slug`) | foto galeri per lingkungan | - |
 
 Path aset (`/images/...`, `/models/...`, `/videos/...`) relatif terhadap situs FE (`public/`), bukan `/assets` BE.
-Belum dipindah: data Peta Perjalanan (milik Zhafran, masih di FE).
+Seluruh konten FE (termasuk `docs/content-data.json`) sekarang berasal dari BE; FE tidak lagi mengimpor `content-data.json`.

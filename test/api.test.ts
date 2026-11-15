@@ -50,6 +50,8 @@ test("api smoke + data integrity", async () => {
     assert.equal((await list("/scene-objects?chapter=4")).length, 4);
     assert.ok(objs.every((o) => Array.isArray(o.media)), "object media");
     assert.equal((await list("/source-catalog?kind=model3d")).length, 8);
+    assert.equal((await get("/journeys/mars")).body.data.kategori.nama, "Mars");
+    assert.equal((await list("/journeys")).length, 3);
     assert.equal((await list("/galleries")).length, 3);
 
     // a media url is actually served
