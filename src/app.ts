@@ -22,7 +22,6 @@ const resources: Record<string, Record<string, string>> = {
   chapters: { category: "category" },
   "scene-objects": { category: "category", chapter: "chapter_number" },
   "source-catalog": { kind: "kategori" },
-  journeys: {},
   galleries: {},
 };
 

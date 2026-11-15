@@ -85,3 +85,16 @@ Status umum: `200` sukses, `400` parameter tidak valid, `404` tidak ditemukan, `
 6. Jangan mengubah response shape tanpa koordinasi.
 
 Base URL, framework, CORS, autentikasi, hosting, dan rate limit: **TBD**. Jangan commit API key atau secret.
+
+## Konten FE (sumber kebenaran ada di BE)
+Data berikut dulu hidup di file FE; sekarang diedit di `data/*.json` BE dan diambil FE lewat `npm run data:sync`.
+
+| Endpoint | Isi | Filter |
+|---|---|---|
+| `/api/v1/chapters` (`/:slug`) | 4 bab cerita: narasi, bagian, galeri, video, fakta, artefak, sumber | `category` = `moon` \| `mars` \| `deep-space` |
+| `/api/v1/scene-objects` (`/:slug`, mis. `obj-2-0`) | 21 benda/hotspot 3D beserta media popup | `category`, `chapter` (1-4) |
+| `/api/v1/source-catalog` (`/:id`) | katalog halaman Sumber (referensi, kredit media, model 3D) | `kind` = `referensi` \| `media` \| `model3d` |
+| `/api/v1/galleries` (`/:slug`) | foto galeri per lingkungan | - |
+
+Path aset (`/images/...`, `/models/...`, `/videos/...`) relatif terhadap situs FE (`public/`), bukan `/assets` BE.
+Belum dipindah: data Peta Perjalanan (milik Zhafran, masih di FE).
