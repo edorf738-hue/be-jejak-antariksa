@@ -18,6 +18,12 @@ const resources: Record<string, Record<string, string>> = {
   artifacts: { status: "status", mission: "mission_slug", location: "location_slug" },
   sources: {},
   media: { asset_type: "asset_type", mission: "mission_slugs" },
+  // content the FE renders (moved here from the FE data files): BE is the source of truth
+  chapters: { category: "category" },
+  "scene-objects": { category: "category", chapter: "chapter_number" },
+  "source-catalog": { kind: "kategori" },
+  journeys: {},
+  galleries: {},
 };
 
 class ApiError extends Error {
@@ -55,7 +61,7 @@ export function createApp() {
       for (const [param, field] of Object.entries(filters)) {
         const v = req.query[param];
         if (v === undefined) continue;
-        out = out.filter((i) => (Array.isArray(i[field]) ? (i[field] as unknown[]).includes(v) : i[field] === v));
+        out = out.filter((i) => (Array.isArray(i[field]) ? (i[field] as unknown[]).includes(v) : String(i[field]) === v));
       }
       res.json({ data: out.slice(offset, offset + limit), meta: { count: out.length, limit, offset } });
     });

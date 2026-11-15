@@ -39,6 +39,20 @@ test("api smoke + data integrity", async () => {
       assert.ok(a.model_media_id === null || mediaIds.has(a.model_media_id), a.slug);
     }
 
+    // FE content now lives here
+    const chapters = await list("/chapters");
+    assert.deepEqual(chapters.map((c) => c.slug), ["awal-eksplorasi", "eksplorasi-bulan", "eksplorasi-mars", "deep-space"]);
+    assert.ok(chapters.every((c) => c.sections.length > 0 && c.sources.length > 0), "chapter content");
+    assert.equal((await get("/chapters/eksplorasi-bulan")).body.data.category, "moon");
+    const objs = await list("/scene-objects");
+    assert.equal(objs.length, 21);
+    assert.equal((await list("/scene-objects?category=moon")).length, 11);
+    assert.equal((await list("/scene-objects?chapter=4")).length, 4);
+    assert.ok(objs.every((o) => Array.isArray(o.media)), "object media");
+    assert.equal((await list("/source-catalog?kind=model3d")).length, 8);
+    assert.equal((await get("/journeys/mars")).body.data.slug, "mars");
+    assert.equal((await list("/galleries")).length, 3);
+
     // a media url is actually served
     const m = media.find((x) => x.format === "webp");
     assert.equal((await fetch(host + m.url)).status, 200);
