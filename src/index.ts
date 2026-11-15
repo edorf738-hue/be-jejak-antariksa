@@ -1,21 +1,10 @@
-import express from "express";
-import cors from "cors";
 import dotenv from "dotenv";
+import { createApp } from "./app";
 
 dotenv.config();
 
-const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
-app.use(express.json());
-
-app.get("/", (req, res) => {
-  res.json({
-    message: "WAYANG ANTARIKSA API is running!",
-  });
-});
-
-app.listen(PORT, () => {
+createApp().listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
