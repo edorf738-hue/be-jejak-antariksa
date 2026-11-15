@@ -1,0 +1,50 @@
+[
+  {
+    "id": "location-tranquility-base",
+    "slug": "tranquility-base",
+    "name": "Tranquility Base, Mare Tranquillitatis (Laut Ketenangan)",
+    "body": "moon",
+    "latitude": 0.67416,
+    "longitude": 23.47314,
+    "coordinate_note": "Lintang utara, bujur timur. Versi NASA Mission Overview: 0°41'15\" LU, 23°26' BT (selisih sekitar 1 km); jangan dicampur.",
+    "mission_slugs": ["apollo-11"],
+    "environment_3d": "Lunar Environment & Earthrise",
+    "sources": [{ "title": "NSSDCA — Apollo 11 Eagle", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C" }]
+  },
+  {
+    "id": "location-gusev-crater",
+    "slug": "gusev-crater",
+    "name": "Gusev Crater",
+    "body": "mars",
+    "latitude": -14.572,
+    "longitude": 175.478,
+    "coordinate_note": "Lintang selatan, bujur timur. Koordinat pendaratan; titik berhenti Spirit (tepi barat Home Plate) tidak punya koordinat di sumber.",
+    "mission_slugs": ["spirit"],
+    "environment_3d": "Mars Environment",
+    "sources": [{ "title": "NSSDCA — Spirit", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A" }]
+  },
+  {
+    "id": "location-meridiani-planum",
+    "slug": "meridiani-planum",
+    "name": "Meridiani Planum",
+    "body": "mars",
+    "latitude": -1.946,
+    "longitude": 354.473,
+    "coordinate_note": "Lintang selatan, bujur timur. Koordinat pendaratan (NASA Science: -1.9483, 354.47417); titik berhenti Opportunity di Perseverance Valley tidak punya koordinat di sumber.",
+    "mission_slugs": ["opportunity"],
+    "environment_3d": "Mars Environment",
+    "sources": [{ "title": "NSSDCA — Opportunity", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A" }]
+  },
+  {
+    "id": "location-interstellar-space",
+    "slug": "interstellar-space",
+    "name": "Ruang antarbintang",
+    "body": "deep_space",
+    "latitude": null,
+    "longitude": null,
+    "coordinate_note": "Tidak ada koordinat; posisi berupa jarak yang berubah tiap hari. Posisi terkini: NASA Eyes on the Solar System.",
+    "mission_slugs": ["voyager-1", "voyager-2"],
+    "environment_3d": "Deep Space Environment",
+    "sources": [{ "title": "NASA Science — Where are they now", "url": "https://science.nasa.gov/mission/voyager/where-are-they-now/" }]
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "mission-apollo-11",
+    "slug": "apollo-11",
+    "name": "Apollo 11",
+    "agency": "NASA",
+    "destination": "moon",
+    "location_slug": "tranquility-base",
+    "launch_date": "1969-07-16",
+    "arrival_date": "1969-07-20",
+    "end_date": "1969-07-24",
+    "date_note": "Tanggal waktu Amerika (pendaratan 20 Juli = 21 Juli di Indonesia). Peluncuran 09.32 EDT, mendarat di Pasifik 12.50 EDT.",
+    "status": "completed",
+    "status_verified_at": null,
+    "objective": "Mendaratkan manusia di Bulan dan membawanya kembali ke Bumi, sesuai target Presiden Kennedy 25 Mei 1961.",
+    "crew": ["Neil Armstrong", "Michael Collins", "Edwin \"Buzz\" Aldrin"],
+    "sources": [
+      { "title": "NASA — Apollo 11", "url": "https://www.nasa.gov/mission/apollo-11/" },
+      { "title": "NASA — Apollo 11 Mission Overview", "url": "https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/" }
+    ]
+  },
+  {
+    "id": "mission-voyager-1",
+    "slug": "voyager-1",
+    "name": "Voyager 1",
+    "agency": "NASA",
+    "destination": "deep-space",
+    "location_slug": "interstellar-space",
+    "launch_date": "1977-09-05",
+    "arrival_date": null,
+    "end_date": null,
+    "date_note": "Memasuki ruang antarbintang Agustus 2012.",
+    "status": "operating",
+    "status_verified_at": "2026-04-17",
+    "objective": "TBD",
+    "crew": [],
+    "sources": [
+      { "title": "NASA Science — Voyager 1", "url": "https://science.nasa.gov/mission/voyager/voyager-1/" },
+      { "title": "NASA Science — Where are they now", "url": "https://science.nasa.gov/mission/voyager/where-are-they-now/" }
+    ]
+  },
+  {
+    "id": "mission-voyager-2",
+    "slug": "voyager-2",
+    "name": "Voyager 2",
+    "agency": "NASA",
+    "destination": "deep-space",
+    "location_slug": "interstellar-space",
+    "launch_date": "1977-08-20",
+    "arrival_date": null,
+    "end_date": null,
+    "date_note": "Memasuki ruang antarbintang 5 November 2018. Jarak dan kecepatan belum diverifikasi.",
+    "status": "operating",
+    "status_verified_at": "2026-04-17",
+    "objective": "TBD",
+    "crew": [],
+    "sources": [
+      { "title": "NASA Science — Where are they now", "url": "https://science.nasa.gov/mission/voyager/where-are-they-now/" }
+    ]
+  },
+  {
+    "id": "mission-spirit",
+    "slug": "spirit",
+    "name": "Spirit (Mars Exploration Rover)",
+    "agency": "NASA",
+    "destination": "mars",
+    "location_slug": "gusev-crater",
+    "launch_date": "2003-06-10",
+    "arrival_date": "2004-01-03",
+    "end_date": "2011-05-25",
+    "date_note": "Pendaratan waktu Pasifik (NSSDCA: 4 Januari UT). Komunikasi terakhir 2010-03-22; upaya pemulihan resmi berakhir 2011-05-25.",
+    "status": "inactive",
+    "status_verified_at": null,
+    "objective": "Mencari jejak air di masa lalu Mars. Dirancang bekerja sekitar 90 sol.",
+    "crew": [],
+    "sources": [
+      { "title": "NASA Science — Spirit and Opportunity", "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/" },
+      { "title": "NSSDCA — Spirit", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A" }
+    ]
+  },
+  {
+    "id": "mission-opportunity",
+    "slug": "opportunity",
+    "name": "Opportunity (Mars Exploration Rover)",
+    "agency": "NASA",
+    "destination": "mars",
+    "location_slug": "meridiani-planum",
+    "launch_date": "2003-07-07",
+    "arrival_date": "2004-01-24",
+    "end_date": "2019-02-13",
+    "date_note": "Waktu Pasifik, konsisten dengan tanggal pendaratan (NSSDCA/UT: peluncuran 8 Juli, pendaratan 25 Januari). Kontak terakhir 2018-06-10; NASA menyatakan misi berakhir 2019-02-13.",
+    "status": "inactive",
+    "status_verified_at": null,
+    "objective": "Mencari jejak air di masa lalu Mars. Dirancang bekerja sekitar 90 sol.",
+    "crew": [],
+    "sources": [
+      { "title": "NASA Science — Opportunity", "url": "https://science.nasa.gov/mission/mer-opportunity/" },
+      { "title": "NASA — Opportunity mission comes to end", "url": "https://www.nasa.gov/news-release/nasas-record-setting-opportunity-rover-mission-on-mars-comes-to-end/" },
+      { "title": "NSSDCA — Opportunity", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A" }
+    ]
+  }
+]

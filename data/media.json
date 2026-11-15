@@ -1,0 +1,385 @@
+[
+  {
+    "id": "media-apollo-11-landing-site-stl",
+    "title": "Apollo 11 - Landing Site",
+    "asset_type": "model_3d",
+    "url": "/assets/3D%20models/Apollo%2011%20-%20Landing%20Site.stl",
+    "format": "stl",
+    "file_size_bytes": 7138484,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo-lunar-module-glb",
+    "title": "Apollo Lunar Module",
+    "asset_type": "model_3d",
+    "url": "/assets/3D%20models/Apollo%20Lunar%20Module.glb",
+    "format": "glb",
+    "file_size_bytes": 716840,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-saturn-v-glb",
+    "title": "Saturn V",
+    "asset_type": "model_3d",
+    "url": "/assets/3D%20models/Saturn%20V.glb",
+    "format": "glb",
+    "file_size_bytes": 927212,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-voyager-probe-b-antenna-glb",
+    "title": "Voyager Probe (B) (antenna)",
+    "asset_type": "model_3d",
+    "url": "/assets/3D%20models/Voyager%20Probe%20(B)%20(antenna).glb",
+    "format": "glb",
+    "file_size_bytes": 166352,
+    "attribution": null,
+    "mission_slugs": [
+      "voyager-1",
+      "voyager-2"
+    ]
+  },
+  {
+    "id": "media-voyager-probe-b-glb",
+    "title": "Voyager Probe (B)",
+    "asset_type": "model_3d",
+    "url": "/assets/3D%20models/Voyager%20Probe%20(B).glb",
+    "format": "glb",
+    "file_size_bytes": 1720864,
+    "attribution": null,
+    "mission_slugs": [
+      "voyager-1",
+      "voyager-2"
+    ]
+  },
+  {
+    "id": "media-voyager-twin-spacecraft-glb",
+    "title": "Voyager Twin Spacecraft",
+    "asset_type": "model_3d",
+    "url": "/assets/3D%20models/Voyager_Twin_Spacecraft.glb",
+    "format": "glb",
+    "file_size_bytes": 3128204,
+    "attribution": null,
+    "mission_slugs": [
+      "voyager-1",
+      "voyager-2"
+    ]
+  },
+  {
+    "id": "media-apollo-11-view-of-the-moon-jpg",
+    "title": "Apollo 11 View of the Moon",
+    "asset_type": "image",
+    "url": "/assets/Images/Apollo%2011%20View%20of%20the%20Moon.jpg",
+    "format": "jpg",
+    "file_size_bytes": 2957499,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo-astronaut-bootprint-jpg",
+    "title": "Apollo Astronaut Bootprint",
+    "asset_type": "image",
+    "url": "/assets/Images/Apollo%20Astronaut%20Bootprint.jpg",
+    "format": "jpg",
+    "file_size_bytes": 4707847,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo-11-aldrin-lunar-module-ladder-jpg",
+    "title": "Apollo-11-Aldrin-Lunar-Module-Ladder",
+    "asset_type": "image",
+    "url": "/assets/Images/Apollo-11-Aldrin-Lunar-Module-Ladder.jpg",
+    "format": "jpg",
+    "file_size_bytes": 2529663,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo-11-buzz-aldrin-lunar-module-jpg",
+    "title": "Apollo-11-Buzz-Aldrin-Lunar-Module",
+    "asset_type": "image",
+    "url": "/assets/Images/Apollo-11-Buzz-Aldrin-Lunar-Module.jpg",
+    "format": "jpg",
+    "file_size_bytes": 2236993,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-buzzaldrin-besidesolarwindexperiment-webp",
+    "title": "Apollo11 BuzzAldrin BesideSolarWindExperiment",
+    "asset_type": "image",
+    "url": "/assets/Images/Apollo11_BuzzAldrin_BesideSolarWindExperiment.webp",
+    "format": "webp",
+    "file_size_bytes": 153476,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-buzzaldrin-salutes-usflag-jpg",
+    "title": "Apollo11 BuzzAldrin Salutes USFlag",
+    "asset_type": "image",
+    "url": "/assets/Images/Apollo11_BuzzAldrin_Salutes_USFlag.jpg",
+    "format": "jpg",
+    "file_size_bytes": 108430,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-commemorativeplaque-webp",
+    "title": "Apollo11 CommemorativePlaque",
+    "asset_type": "image",
+    "url": "/assets/Images/Apollo11_CommemorativePlaque.webp",
+    "format": "webp",
+    "file_size_bytes": 72572,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-lunarmodule-distantview-webp",
+    "title": "Apollo11 LunarModule DistantView",
+    "asset_type": "image",
+    "url": "/assets/Images/Apollo11_LunarModule_DistantView.webp",
+    "format": "webp",
+    "file_size_bytes": 96122,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-neilarmstrong-collectinglunarsamples-jpg",
+    "title": "Apollo11 NeilArmstrong CollectingLunarSamples",
+    "asset_type": "image",
+    "url": "/assets/Images/Apollo11_NeilArmstrong_CollectingLunarSamples.jpg",
+    "format": "jpg",
+    "file_size_bytes": 2454042,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-solarwindexperiment-webp",
+    "title": "Apollo11 SolarWindExperiment",
+    "asset_type": "image",
+    "url": "/assets/Images/Apollo11_SolarWindExperiment.webp",
+    "format": "webp",
+    "file_size_bytes": 118362,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-voyager-golden-record-jpg",
+    "title": "Voyager Golden Record",
+    "asset_type": "image",
+    "url": "/assets/Images/Voyager_Golden_Record.jpg",
+    "format": "jpg",
+    "file_size_bytes": 237024,
+    "attribution": null,
+    "mission_slugs": [
+      "voyager-1",
+      "voyager-2"
+    ]
+  },
+  {
+    "id": "media-voyager-jupiter-great-red-spot-jpg",
+    "title": "Voyager Jupiter Great Red Spot",
+    "asset_type": "image",
+    "url": "/assets/Images/Voyager_Jupiter_Great_Red_Spot.jpg",
+    "format": "jpg",
+    "file_size_bytes": 126334,
+    "attribution": null,
+    "mission_slugs": [
+      "voyager-1",
+      "voyager-2"
+    ]
+  },
+  {
+    "id": "media-voyager-jupiter-moon-io-mosaic-jpg",
+    "title": "Voyager Jupiter Moon Io Mosaic",
+    "asset_type": "image",
+    "url": "/assets/Images/Voyager_Jupiter_Moon_Io_Mosaic.jpg",
+    "format": "jpg",
+    "file_size_bytes": 145549,
+    "attribution": null,
+    "mission_slugs": [
+      "voyager-1",
+      "voyager-2"
+    ]
+  },
+  {
+    "id": "media-voyager-pale-blue-dot-revisited-jpg",
+    "title": "Voyager Pale Blue Dot Revisited",
+    "asset_type": "image",
+    "url": "/assets/Images/Voyager_Pale_Blue_Dot_Revisited.jpg",
+    "format": "jpg",
+    "file_size_bytes": 632741,
+    "attribution": null,
+    "mission_slugs": [
+      "voyager-1",
+      "voyager-2"
+    ]
+  },
+  {
+    "id": "media-voyager-saturn-atmospheric-changes-jpg",
+    "title": "Voyager Saturn Atmospheric Changes",
+    "asset_type": "image",
+    "url": "/assets/Images/Voyager_Saturn_Atmospheric_Changes.jpg",
+    "format": "jpg",
+    "file_size_bytes": 40489,
+    "attribution": null,
+    "mission_slugs": [
+      "voyager-1",
+      "voyager-2"
+    ]
+  },
+  {
+    "id": "media-voyager-saturn-beyond-saturn-jpg",
+    "title": "Voyager Saturn Beyond Saturn",
+    "asset_type": "image",
+    "url": "/assets/Images/Voyager_Saturn_Beyond_Saturn.jpg",
+    "format": "jpg",
+    "file_size_bytes": 25996,
+    "attribution": null,
+    "mission_slugs": [
+      "voyager-1",
+      "voyager-2"
+    ]
+  },
+  {
+    "id": "media-voyager-saturn-rings-detail-jpg",
+    "title": "Voyager Saturn Rings Detail",
+    "asset_type": "image",
+    "url": "/assets/Images/Voyager_Saturn_Rings_Detail.jpg",
+    "format": "jpg",
+    "file_size_bytes": 68535,
+    "attribution": null,
+    "mission_slugs": [
+      "voyager-1",
+      "voyager-2"
+    ]
+  },
+  {
+    "id": "media-voyager-two-interstellar-traveler-png",
+    "title": "Voyager Two Interstellar Traveler",
+    "asset_type": "image",
+    "url": "/assets/Images/Voyager_Two_Interstellar_Traveler.png",
+    "format": "png",
+    "file_size_bytes": 2303922,
+    "attribution": null,
+    "mission_slugs": [
+      "voyager-1",
+      "voyager-2"
+    ]
+  },
+  {
+    "id": "media-apollo11-buzzaldrin-setsfootonmoon-mp4",
+    "title": "Apollo11 BuzzAldrin SetsFootOnMoon",
+    "asset_type": "video",
+    "url": "/assets/Vidio/Apollo11_BuzzAldrin_SetsFootOnMoon.mp4",
+    "format": "mp4",
+    "file_size_bytes": 28446880,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-command-service-modules-orbit-jpg",
+    "title": "Apollo11 Command Service Modules Orbit",
+    "asset_type": "image",
+    "url": "/assets/Vidio/Apollo11_Command_Service_Modules_Orbit.jpg",
+    "format": "jpg",
+    "file_size_bytes": 3597258,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-commemorativeplaque-mp4",
+    "title": "Apollo11 CommemorativePlaque",
+    "asset_type": "video",
+    "url": "/assets/Vidio/Apollo11_CommemorativePlaque.mp4",
+    "format": "mp4",
+    "file_size_bytes": 23848143,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-mission-introduction-mp4",
+    "title": "Apollo11 Mission Introduction",
+    "asset_type": "video",
+    "url": "/assets/Vidio/Apollo11_Mission_Introduction.mp4",
+    "format": "mp4",
+    "file_size_bytes": 88583300,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-neilarmstrong-onesmallstep-mp4",
+    "title": "Apollo11 NeilArmstrong OneSmallStep",
+    "asset_type": "video",
+    "url": "/assets/Vidio/Apollo11_NeilArmstrong_OneSmallStep.mp4",
+    "format": "mp4",
+    "file_size_bytes": 30582011,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-raisingamericanflag-mp4",
+    "title": "Apollo11 RaisingAmericanFlag",
+    "asset_type": "video",
+    "url": "/assets/Vidio/Apollo11_RaisingAmericanFlag.mp4",
+    "format": "mp4",
+    "file_size_bytes": 27934075,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  },
+  {
+    "id": "media-apollo11-saturnv-launch-1969-mp4",
+    "title": "Apollo11 SaturnV Launch 1969",
+    "asset_type": "video",
+    "url": "/assets/Vidio/Apollo11_SaturnV_Launch_1969.mp4",
+    "format": "mp4",
+    "file_size_bytes": 26407190,
+    "attribution": null,
+    "mission_slugs": [
+      "apollo-11"
+    ]
+  }
+]

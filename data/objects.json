@@ -1,0 +1,29 @@
+[
+  {
+    "id": "object-mars",
+    "slug": "mars",
+    "name": "Mars",
+    "category": "mars",
+    "short_description": "TBD — needs verification",
+    "model_asset": null,
+    "sources": []
+  },
+  {
+    "id": "object-moon",
+    "slug": "moon",
+    "name": "Bulan",
+    "category": "moon",
+    "short_description": "TBD — needs verification",
+    "model_asset": null,
+    "sources": []
+  },
+  {
+    "id": "object-deep-space",
+    "slug": "deep-space",
+    "name": "Deep Space",
+    "category": "deep_space",
+    "short_description": "TBD — needs verification",
+    "model_asset": null,
+    "sources": []
+  }
+]

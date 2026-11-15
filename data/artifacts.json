@@ -1,0 +1,106 @@
+[
+  {
+    "id": "artifact-a1", "slug": "eagle-descent-stage", "name": "Tahap turun Eagle",
+    "mission_slug": "apollo-11", "location_slug": "tranquility-base",
+    "description": "Bagian bawah pendarat Eagle: prisma segi delapan, lebar 4,2 m, tebal 1,7 m, massa kering 2.034 kg. Landasan peluncuran tahap naik.",
+    "status": "left_behind", "status_note": "Ditinggalkan di Bulan",
+    "model_media_id": "media-apollo-lunar-module-glb", "model_note": "Model umum Apollo Lunar Module, bukan khusus Eagle",
+    "sources": [{ "title": "NSSDCA — Apollo 11 Eagle", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C" }]
+  },
+  {
+    "id": "artifact-a2", "slug": "commemorative-plaque", "name": "Plakat peringatan",
+    "mission_slug": "apollo-11", "location_slug": "tranquility-base",
+    "description": "Dipasang pada kaki pendarat Eagle. Tertulis: \"Here men from the planet Earth first set foot upon the moon. July 1969 A.D. We came in peace for all mankind.\"",
+    "status": "left_behind", "status_note": "Ditinggalkan di Bulan",
+    "model_media_id": null, "model_note": null,
+    "sources": [{ "title": "NSSDCA — Apollo 11 Eagle", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C" }]
+  },
+  {
+    "id": "artifact-a3", "slug": "american-flag", "name": "Bendera Amerika",
+    "mission_slug": "apollo-11", "location_slug": "tranquility-base",
+    "description": "Didirikan para astronaut di permukaan Bulan.",
+    "status": "left_behind", "status_note": "Ditinggalkan di Bulan",
+    "model_media_id": null, "model_note": null,
+    "sources": [{ "title": "NASA — Apollo 11 Mission Overview", "url": "https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/" }]
+  },
+  {
+    "id": "artifact-a4", "slug": "passive-seismic-experiment", "name": "Seismometer (PSE) di paket EASEP",
+    "mission_slug": "apollo-11", "location_slug": "tranquility-base",
+    "description": "Alat pencatat gempa Bulan. EASEP sekitar 48 kg, dinyalakan 21 Juli 1969, berhenti bekerja 27 Agustus 1969. Dipasang sekitar 17 m di selatan pendarat.",
+    "status": "left_behind", "status_note": "Ditinggalkan, tidak aktif",
+    "model_media_id": null, "model_note": null,
+    "sources": [{ "title": "NSSDCA — Apollo 11 Eagle", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C" }]
+  },
+  {
+    "id": "artifact-a5", "slug": "laser-retroreflector", "name": "Retroreflektor laser (LRRR)",
+    "mission_slug": "apollo-11", "location_slug": "tranquility-base",
+    "description": "Panel aluminium 46 cm persegi berisi 100 cermin sudut silika, memantulkan laser dari Bumi tanpa listrik. Dipasang sekitar 5 m dari EASEP.",
+    "status": "left_behind", "status_note": "Ditinggalkan; JPL menyebut masih dipakai untuk pengukuran (tanggal artikel perlu dicek sebelum menulis \"hingga hari ini\")",
+    "model_media_id": null, "model_note": null,
+    "sources": [{ "title": "JPL — The Apollo experiment that keeps on giving", "url": "https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/" }]
+  },
+  {
+    "id": "artifact-a6", "slug": "memorial-items", "name": "Paket barang peringatan",
+    "mission_slug": "apollo-11", "location_slug": "tranquility-base",
+    "description": "Medali untuk tiga astronaut Apollo 1 dan dua kosmonot, serta cakram silikon 1,5 inci berisi pesan dari 73 negara.",
+    "status": "left_behind", "status_note": "Ditinggalkan di Bulan",
+    "model_media_id": null, "model_note": null,
+    "sources": [{ "title": "NASA — Apollo 11 Mission Overview", "url": "https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/" }]
+  },
+  {
+    "id": "artifact-a7", "slug": "other-equipment", "name": "Peralatan lain",
+    "mission_slug": "apollo-11", "location_slug": "tranquility-base",
+    "description": "Kamera TV, dua kamera foto, peralatan pengambil sampel, ransel pendukung kehidupan (PLSS), sepatu Bulan, dan gnomon.",
+    "status": "left_behind", "status_note": "Ditinggalkan di Bulan",
+    "model_media_id": null, "model_note": null,
+    "sources": [{ "title": "NASA — Apollo 11 Log", "url": "https://www.nasa.gov/wp-content/uploads/static/history/ap11ann/apollo11_log/log.htm" }]
+  },
+  {
+    "id": "artifact-a8", "slug": "eagle-ascent-stage", "name": "Tahap naik Eagle",
+    "mission_slug": "apollo-11", "location_slug": null,
+    "description": "Mengantar Armstrong dan Aldrin kembali ke Columbia, lalu dilepas ke orbit Bulan pada 22 Juli 1969. Diduga jatuh ke Bulan 1–4 bulan kemudian.",
+    "status": "unknown", "status_note": "Nasib tidak diketahui",
+    "model_media_id": "media-apollo-lunar-module-glb", "model_note": "Model umum Apollo Lunar Module",
+    "sources": [{ "title": "NSSDCA — Apollo 11 Eagle", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C" }]
+  },
+  {
+    "id": "artifact-b1", "slug": "voyager-1-spacecraft", "name": "Voyager 1",
+    "mission_slug": "voyager-1", "location_slug": "interstellar-space",
+    "description": "Diluncurkan 5 September 1977, massa 721,9 kg. Masuk ruang antarbintang Agustus 2012. Objek buatan manusia terjauh dari Matahari sejak 17 Februari 1998.",
+    "status": "operating", "status_note": "Masih beroperasi (misi diperpanjang); sebagian instrumen dimatikan untuk hemat daya. Instrumen aktif per 17 April 2026: MAG dan PWS.",
+    "model_media_id": "media-voyager-probe-b-glb", "model_note": "Model umum Voyager Probe",
+    "sources": [{ "title": "NASA Science — Voyager 1", "url": "https://science.nasa.gov/mission/voyager/voyager-1/" }]
+  },
+  {
+    "id": "artifact-b2", "slug": "voyager-2-spacecraft", "name": "Voyager 2",
+    "mission_slug": "voyager-2", "location_slug": "interstellar-space",
+    "description": "Diluncurkan 20 Agustus 1977. Melewati Jupiter, Saturnus, Uranus (24 Januari 1986), dan Neptunus (25 Agustus 1989). Masuk ruang antarbintang 5 November 2018.",
+    "status": "operating", "status_note": "Masih beroperasi (misi diperpanjang). Instrumen aktif per 17 April 2026: CRS, MAG, PWS.",
+    "model_media_id": "media-voyager-probe-b-glb", "model_note": "Model umum Voyager Probe",
+    "sources": [{ "title": "NASA Science — Where are they now", "url": "https://science.nasa.gov/mission/voyager/where-are-they-now/" }]
+  },
+  {
+    "id": "artifact-b3", "slug": "golden-record", "name": "Golden Record",
+    "mission_slug": "voyager-1", "location_slug": "interstellar-space",
+    "description": "Piringan tembaga berlapis emas 30 cm di kedua Voyager: salam dalam 55 bahasa, 35 suara alam, sekitar 90 menit musik, 115 gambar, serta salam Presiden Carter dan Sekjen PBB Waldheim.",
+    "status": "operating", "status_note": "Dibawa terbang ke ruang antarbintang",
+    "model_media_id": null, "model_note": null,
+    "sources": [{ "title": "NASA Science — Voyager", "url": "https://science.nasa.gov/mission/voyager/voyager-1/" }]
+  },
+  {
+    "id": "artifact-c1", "slug": "spirit-rover", "name": "Rover Spirit",
+    "mission_slug": "spirit", "location_slug": "gusev-crater",
+    "description": "Terjebak di tanah lunak 1 Mei 2009 di tepi barat Home Plate. Komunikasi terakhir 22 Maret 2010, pemulihan berakhir 25 Mei 2011. Menempuh 7,73 km.",
+    "status": "left_behind", "status_note": "Ditinggalkan di Mars, nonaktif",
+    "model_media_id": null, "model_note": "Model NASA hanya .blend, belum ada di folder aset",
+    "sources": [{ "title": "NASA Science — Spirit", "url": "https://science.nasa.gov/mission/mer-spirit/" }]
+  },
+  {
+    "id": "artifact-c2", "slug": "opportunity-rover", "name": "Rover Opportunity",
+    "mission_slug": "opportunity", "location_slug": "meridiani-planum",
+    "description": "Komunikasi terakhir 10 Juni 2018 saat badai debu global, di Perseverance Valley (tepi barat Kawah Endeavour). Menempuh 45,16 km. Misi dinyatakan berakhir 13 Februari 2019.",
+    "status": "left_behind", "status_note": "Ditinggalkan di Mars, nonaktif",
+    "model_media_id": null, "model_note": "Model MER-B (.glb) belum ada di folder aset",
+    "sources": [{ "title": "NASA Science — Opportunity", "url": "https://science.nasa.gov/mission/mer-opportunity/" }]
+  }
+]
