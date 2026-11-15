@@ -5,6 +5,8 @@ Mulai dengan `docs/PROJECT.md` dan `docs/SPRINT.md`. Gunakan `docs/UI_UX_GUIDELI
 Ini adalah baseline awal. Semua bagian `TBD` perlu dikonfirmasi tim.
 
 
+Frontend produksi: https://jejak-antariksa.vercel.app (membaca konten dari snapshot hasil backend ini; backend sendiri belum di-deploy).
+
 ## Menjalankan backend
 ```bash
 npm install
